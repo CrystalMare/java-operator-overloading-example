@@ -1,6 +1,6 @@
 package net.heavencraft.operators;
 
-class MyObject {
+class MyObject implements Add<MyObject> {
 
     private final int value;
 

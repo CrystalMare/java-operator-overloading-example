@@ -6,11 +6,9 @@ public class Main {
         MyObject obj1 = new MyObject(10);
         MyObject obj2 = new MyObject(5);
 
-        /*
-            Calls MyObject.add();
-         */
         MyObject objTotal = obj1 + obj2;
 
+        System.out.print("Total value: ");
         //Prints 15
         System.out.println(objTotal.getValue());
     }
